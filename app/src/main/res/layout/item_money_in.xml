@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginBottom="10dp"
+    android:backgroundTint="@color/white"
+    app:strokeColor="@color/greenDark">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:id="@+id/tv_from"
+            style="@style/SubHeadlineTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintEnd_toStartOf="@+id/tv_date"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Dari Bos Ke Kasi Perangkat 1" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            style="@style/SubHeadlineTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="13:00" />
+
+        <TextView
+            android:id="@+id/tv_note"
+            style="@style/SubHeadlineTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintEnd_toStartOf="@+id/tv_amount"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_from"
+            tools:text="Tambahan Modal aaaaaa aaaaaaaaaa" />
+
+        <TextView
+            android:id="@+id/tv_amount"
+            style="@style/SubHeadlineTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="textEnd"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_date"
+            tools:text="Rp. 100.000" />
+
+        <ImageView
+            android:id="@+id/img_edit"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_edit_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_note" />
+
+        <TextView
+            android:id="@+id/tv_edit"
+            style="@style/HeadlineTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/edit"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/img_edit"
+            app:layout_constraintStart_toEndOf="@+id/img_edit"
+            app:layout_constraintTop_toTopOf="@+id/img_edit" />
+
+        <ImageView
+            android:id="@+id/img_delete"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_delete_24"
+            app:layout_constraintBottom_toBottomOf="@+id/img_edit"
+            app:layout_constraintStart_toEndOf="@id/tv_edit"
+            app:layout_constraintTop_toTopOf="@+id/img_edit"
+            app:tint="@color/red" />
+
+        <TextView
+            android:id="@+id/tv_delete"
+            style="@style/HeadlineTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/delete"
+            android:textColor="@color/red"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/img_edit"
+            app:layout_constraintStart_toEndOf="@+id/img_delete"
+            app:layout_constraintTop_toTopOf="@+id/img_edit" />
+
+        <TextView
+            android:id="@+id/tv_photo"
+            style="@style/HeadlineTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_photo"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/img_edit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/img_edit" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

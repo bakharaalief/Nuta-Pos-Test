@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="12dp"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_date_time"
+            style="@style/TableStyle"
+            android:layout_column="0"
+            android:textColor="@color/greenDark"
+            tools:text="@string/date" />
+
+        <TextView
+            android:id="@+id/tv_to"
+            style="@style/TableStyle"
+            android:layout_column="1"
+            android:textAlignment="center"
+            android:textColor="@color/greenDark"
+            tools:text="" />
+
+        <TextView
+            android:id="@+id/tv_from"
+            style="@style/TableStyle"
+            android:layout_column="2"
+            android:textColor="@color/greenDark"
+            tools:text="" />
+
+        <TextView
+            android:id="@+id/tv_note"
+            style="@style/TableStyle"
+            android:layout_column="3"
+            android:textColor="@color/greenDark"
+            tools:text="@string/total" />
+
+        <TextView
+            android:id="@+id/tv_amount"
+            style="@style/TableStyle"
+            android:layout_column="4"
+            android:textColor="@color/greenDark"
+            tools:text="@string/date" />
+    </TableRow>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/greenDark" />
+
+</LinearLayout>

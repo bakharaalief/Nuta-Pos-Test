@@ -1,0 +1,43 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NutaPostTest" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:statusBarColor">@color/greenBlack</item>
+        <item name="android:navigationBarColor">@color/greenBlack</item>
+        <item name="colorPrimary">@color/greenBlack</item>
+    </style>
+
+    <style name="Theme.NutaPostTest" parent="Base.Theme.NutaPostTest" />
+
+    <style name="TextInputLayoutStyle" parent="Widget.Material3.TextInputLayout.FilledBox">
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="TextInputEditTextStyle">
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:paddingTop">30dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="HeadlineTextStyle">
+        <item name="android:textColor">@color/greenDark</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SubHeadlineTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TableStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+</resources>

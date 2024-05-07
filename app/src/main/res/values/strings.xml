@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">NutaPos Test</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="input_to">Masuk Ke</string>
+    <string name="from">Dari</string>
+    <string name="notes">Keterangan</string>
+    <string name="types">Jenis</string>
+    <string name="evidence_of_transfer">Foto/Bukti Transfer/Nota/Kwitansi</string>
+    <string name="other_income">Pendapatan Lain</string>
+    <string name="other_income_info">Uang yang masuk ke laci kasir/ rekening yang menambah profit/laba bisnis kamu</string>
+    <string name="example">Contoh</string>
+    <string name="example_other_income">Menjual kemasan kardus ke loak</string>
+    <string name="non_income">Non Pendapatan</string>
+    <string name="non_income_info">Uang yang masuk ke laci kasir/rekening yang tidak menambah profit/laba bisnis kamu</string>
+    <string name="example_non_income">Modal awal untuk kembalikan ke pelanggan</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="photo">Foto</string>
+    <string name="please_fill_this">Harap isi bagian ini</string>
+    <string name="amount">Jumlah</string>
+    <string name="save">Simpan</string>
+    <string name="delete">Hapus</string>
+    <string name="change">Ubah</string>
+    <string name="show_photo">Lihat Foto</string>
+    <string name="edit">Edit</string>
+    <string name="are_you_sure_to_delete_this">Yakin ingin menghapus ini?</string>
+    <string name="delete_data">Hapus data</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="create_transaction">Buat Transaksi Masuk</string>
+    <string name="no_record">Data Kosong :)</string>
+    <string name="select_date">Pilih Tanggal</string>
+    <string name="date">Jam</string>
+    <string name="total">Total</string>
+</resources>
